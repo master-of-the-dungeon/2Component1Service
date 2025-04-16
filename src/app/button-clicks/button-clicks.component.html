@@ -1,0 +1,8 @@
+<mat-list>
+  <mat-list-item
+    *ngFor="let time of times; let i = index"
+    [ngStyle]="{ color: colors[i % colors.length] }"
+  >
+    {{ time }}
+  </mat-list-item>
+</mat-list>

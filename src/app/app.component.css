@@ -1,0 +1,32 @@
+.card {
+  background-color: black;  /* Тёмный фон */
+  color: white;            /* Белый текст */
+  padding: 16px;           /* Отступы */
+  border-radius: 8px;      /* Скругление углов */
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin-bottom: 8px;
+}
+
+.card-content {
+  font-size: 1.1em;
+}
+
+.button {
+  background-color: #444;  /* Тёмная кнопка */
+  color: white;            /* Белый текст на кнопке */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;  /* Цвет кнопки при наведении */
+}
+
+.list-item {
+  margin: 5px 0;
+}
